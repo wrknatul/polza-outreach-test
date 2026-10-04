@@ -1,0 +1,22 @@
+# environment and caches
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.tmp
+.DS_Store
+~$*.xlsx
+
+# working folders, not part of the repository
+# course notes
+course/
+# research notes
+lpr/
+leads/
+# review copies
+review/
+# tool runs
+leadfinder_out/
+# working comparisons
+compare_*/

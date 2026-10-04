@@ -1,0 +1,61 @@
+{
+  "name": "Поставщики оборудования, упаковки и ингредиентов для пищевых производств, Россия",
+  "note": "Демонстрационный ICP на свежей нише: участники выставки «Агропродмаш-2026» в Экспоцентре. В exclude.domains перечислены сайты и почтовые домены компаний, которые инструменту искать не нужно: база задания 1, резерв, исходная база проверяющих (задание 4) и кандидаты, отклонённые при ресёрче. Инструмент их не обходит и не выдаёт. Исключение действует и после переезда сайта (то же имя в другой зоне, редирект на домен из списка), и по почтовому домену, который использует сайт. Поле note программа не читает.",
+  "country": "Россия",
+  "cities": [],
+  "segments": [
+    {"name": "ингредиенты для пищевых производств", "keywords": ["ингредиент", "комплексные смеси", "ароматизатор", "стабилизатор", "загустител", "специи", "протеин", "стартовые культуры", "оболочк"]},
+    {"name": "упаковка и маркировка", "keywords": ["упаков", "этикет", "маркиров", "розлив", "дозир", "фасов"]},
+    {"name": "автоматизация пищевых производств", "keywords": ["автоматизац", "робот", "программное обеспечение"]},
+    {"name": "оборудование для пищевых производств", "keywords": ["оборудовани", "технологические линии", "комплексные решения", "переработк", "хлебопекарн", "холодильн", "заморозк"]}
+  ],
+  "roles": ["commercial", "sales", "ceo", "marketing", "bizdev"],
+  "exclude": {
+    "companies": [
+      "Газпром", "Росатом", "Ростех", "Сбер", "РЖД", "Северсталь", "ассоциация", "Россоюзхолодпром", "университет",
+      "институт", "академия", "НИИ", "ТГУ", "центр прессы", "центр подбора персонала", "журнал", "издательство",
+      "министерство", "правительство"
+    ],
+    "keywords": ["маркетинговое агентство", "рекламное агентство", "лидогенерация", "email-рассылки"],
+    "domains": [
+      "10-gpz.ru", "adesk.ru", "advamedics.ru", "adverti.ru", "aitis.pro", "alfamatic.ru", "amcad.ru", "apdar.ru",
+      "asapcg.ru", "aspro.ru", "aybolit2000.ru", "balt-pallet.ru", "bmc-food.ru", "bss-s.ru", "bssys.com",
+      "bzpa.ru", "callibri.ru", "cargomodul.ru", "centraltrans.ru", "chat2desk.com", "chelaz.ru", "chelzeo.ru",
+      "cleverence.ru", "compressor-zavod.ru", "cyber-strategy.ru", "dalli-service.com", "daplast.ru",
+      "dinamika1.ru", "dizaincentr.ru", "donvard.ru", "dzmo.ru", "eastfood.spb.ru", "ecohim.ru", "eda-36.ru",
+      "edc-ekb.ru", "eitec.ru", "eitek.ru", "elmatec.ru", "elprovod.ru", "emg.com.ru", "enix.ru", "etalon-cons.ru",
+      "euroconveyor-st.ru", "eurotechspb.com", "experium.ru", "ezhonggroup.com", "f-elres.ru", "fcrc.ru",
+      "fengyitool.com", "festltd.ru", "forpost-co.ru", "fresh-logic.ru", "freshoffice.ru", "friend.work",
+      "gcvep.ru", "gensmeta.ru", "gkws.ru", "gnzs.ru", "gofromir.ru", "gruz-pricepy.ru", "happy-job.ru", "hnc.su",
+      "howfit-press.com", "igrids.ru", "ikmz.ru", "integrus.ru", "interexpertiza.ru", "internor-mach.com",
+      "internor.com.cn", "intervolga.ru", "intradesk.ru", "introplastik.com", "iskroline.ru", "it-murman.ru",
+      "it-solution.ru", "itc29.ru", "jat-carbide.com", "jatcarbide.com", "jillionsupply.com", "jimmytool.com",
+      "kachkin.ru", "kaiten.ru", "kak2c.ru", "kanmash.ru", "kartons.ru", "kb-agava.ru", "knz.ru", "kontakt-1.ru",
+      "kripta.ru", "ks20.ru", "kvil.ru", "label4u.ru", "labrf.ru", "logsis.ru", "manotom.com", "massflow.ru",
+      "mavlad.ru", "mdmprint.ru", "medizdelie.ru", "mgwmachine.com", "midlandhunt.com", "mmp-irbis.ru", "mztpa.ru",
+      "ncontrol.ru", "networkss.ru", "nikolskaya.ru", "novastretch.ru", "npt.ru", "nttzmt.com", "obit.ru",
+      "ok-stanok.ru", "okdesk.ru", "onsklad.ru", "ooo-lp.ru", "ooo-mim.ru", "ooo-polytec.ru", "opm.ru",
+      "opt-krep.ru", "optimalog.ru", "p-z-o.com", "pachca.com", "pack-land.ru", "packovalli.com", "palletoptom.ru",
+      "palletsnab.ru", "penzmash.ru", "pixelplus.ru", "podtrade.ru", "politec.su", "ppgk.ru", "prokompressor.ru",
+      "prombearing.ru", "propersonnel.ru", "pzemi.ru", "pzpi.ru", "radist.online", "regionservice.com",
+      "regroups.ru", "roccs.ru", "rosintelcom.ru", "rrg.ru", "rskcorp.ru", "rskg.ru", "rzta.ru",
+      "saintymachine.com", "secretgroup.ru", "severest.ru", "shnek.ru", "shtab.app", "simbio.ru", "skillaz.ru",
+      "skorozvon.ru", "smesi-brozex.ru", "snol-term.ru", "solvo.ru", "stakhanovets.ru", "sunprint.ru",
+      "taxology.ru", "tdvzvt.ru", "teachbase.ru", "teamly.ru", "technopack.spb.ru", "technosphera.ru", "techwb.ru",
+      "termotronic.ru", "thebestcnc.com", "tokomelit.ru", "topdelivery.ru", "tpchel.ru", "trubor.ru", "tt45.ru",
+      "tu-don.ru", "ucstroitel.ru", "uiscom.ru", "uncomtech.ru", "unexspb.ru", "unimach.ru", "usk.ru", "utz-arm.ru",
+      "vkorpe.ru", "vneshaudit.ru", "vzvt.ru", "zavod-conveyer.ru", "zavodmdu.ru", "zif.su", "технотранс.рф",
+      "трансавтоцистерна.рф"
+    ]
+  },
+  "limits": {
+    "companies": 150,
+    "pages_per_site": 8,
+    "leads_per_company": 3,
+    "freshness_months": 24,
+    "max_staff": 0
+  },
+  "sources": [
+    {"type": "expocentr", "exhibition": "a94ff0c2-5685-11f0-80d0-a0d3c1fab97f", "country": "Россия"}
+  ]
+}
